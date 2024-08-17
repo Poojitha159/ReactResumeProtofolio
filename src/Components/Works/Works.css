@@ -120,12 +120,13 @@
     gap: 5rem;
   }
 
-  .w-right {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    transform: scale(0.7);
+  .w-right { 
+    display: flex; 
+    align-items: flex-start; /* Corrected this line */
+    justify-content: start; 
+    transform: scale(0.7); 
   }
+
   .w-mainCircle{
     position: static;
   }
